@@ -3,8 +3,11 @@ EE250 Final Project
 Team members: 
 Brian Nlong Zhao, Weixuan Gao
 
+Github repository link:
+github.com/briannlongzhao/EE250_final_project
+
 Link to demo video:
-https://drive.google.com/open?id=1svmkiLct8Xd3G6zHQsWrnMjDqnSEwwTt
+drive.google.com/open?id=1svmkiLct8Xd3G6zHQsWrnMjDqnSEwwTt
 
 Instruction on how to compile and execute the program:
 1. On a Windows host system:
@@ -16,7 +19,7 @@ Instruction on how to compile and execute the program:
 
 2. On another machine (VM or another computer):
 	Install paho-mqtt package (pypi.org/project/paho-mqtt)
-	Install matplotlib package (https://pypi.org/project/matplotlib)
+	Install matplotlib package (pypi.org/project/matplotlib)
 	Run vm_sub.py
 
 3. On a Raspberry Pi (3 or higher):
