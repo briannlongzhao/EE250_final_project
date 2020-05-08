@@ -63,10 +63,10 @@ def on_C4(client, userdata, message):
     print("Core 4 Temperature: " + payload + "℃ ", end=" ")
     if (t4 > th):
         GPIO.output(11, GPIO.HIGH)
-        print(" LED ON")
+        print("LED ON")
     else:
         GPIO.output(11, GPIO.LOW)
-        print(" LED OFF")
+        print("LED OFF")
 
 def on_connect(client, userdata, flags, rc):
     print("Connected to broker with result code " + str(rc))
